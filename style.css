@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('https://images.unsplash.com/photo-1561452860-f23ed89d0574') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('https://spaceplace.nasa.gov/review/planets/planetary-systems/images/solar-system.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 60px; /* Ensure it doesn't overlap with fixed nav */
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#learn-more ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#learn-more li {
+    margin: 10px 0;
+}
+
+#learn-more a {
+    color: #00f;
+    text-decoration: none;
+}
+
+#learn-more a:hover {
+    text-decoration: underline;
+}
